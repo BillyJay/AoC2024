@@ -52,7 +52,7 @@ while(True):
 		if (posj > (C-1)//4 and posj < (C-1)//2+(C-1)//4):
 			most_center += 1
 
-	# displays input and waits if more than 400 robots are in a central strip
+	# if more than 400 robots are in the central strip, display robot positions and wait for enter
 	# keep enter pressed until you see something interesting...
 	if(most_center>400): 
 		coords = []
