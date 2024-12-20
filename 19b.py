@@ -1,4 +1,3 @@
-
 file = open("input19.txt").read().strip()
 lines = file.split('\n\n')
 
